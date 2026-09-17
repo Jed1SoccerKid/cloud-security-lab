@@ -7,7 +7,7 @@ It highlights cloud security fundamentals, network segmentation, Linux hardening
 ---
 
 ##  Full Project Write-Up (PDF)
-The complete case study, including screenshots, snippets, validation, threat model, monitoring plan, and cost-control strategy, is available here:
+The complete case study, including screenshots, snippets, validation, threat model, and cost-control strategy, is available here:
 
 [Download the full case study](Cloud-Security-VPC-Case-Study.pdf)
 
@@ -53,19 +53,10 @@ Add your diagram file to the repo (e.g., `architecture.png`) and reference it he
 
 ---
 
-##  Monitoring & Detection
-- VPC Flow Logs → CloudWatch  
-- CloudTrail for API auditing  
-- GuardDuty for threat detection  
-- CloudWatch alarms for unusual outbound traffic  
-
----
-
 ##  Cost-Control Strategy
 - Free-tier EC2 instances  
 - NAT instance instead of NAT Gateway  
 - Instances stopped when not in use  
-- Minimal CloudWatch retention  
 - No attack traffic to avoid egress charges  
 
 ---
@@ -74,7 +65,7 @@ Add your diagram file to the repo (e.g., `architecture.png`) and reference it he
 - AWS VPC design and subnet segmentation  
 - Linux networking and NAT configuration  
 - Security group design and least-privilege enforcement  
-- Cloud routing and traffic flow validation  
-- Threat modeling and monitoring strategy  
+- Cloud routing and traffic flow validation
+- Threat modeling
 - Technical documentation and diagramming  
 - Cloud security fundamentals  
